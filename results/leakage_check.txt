@@ -1,0 +1,2 @@
+fails: none
+{'n_days': 1442, 'start': '2006-12-16', 'end': '2010-11-26', 'contiguous': True, 'minutes_sum_ok': True, 'rescale_max_abs_diff': 7.105427357601002e-15}

@@ -1,0 +1,34 @@
+{
+  "HGB|A": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "min_samples_leaf": 25
+  },
+  "HGB|B": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_samples_leaf": 10
+  },
+  "HGB|C": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_samples_leaf": 10
+  },
+  "HGB|R": {
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_samples_leaf": 25
+  },
+  "Ridge|A": {
+    "alpha": 100
+  },
+  "Ridge|B": {
+    "alpha": 300
+  },
+  "Ridge|C": {
+    "alpha": 300
+  },
+  "Ridge|R": {
+    "alpha": 100
+  }
+}

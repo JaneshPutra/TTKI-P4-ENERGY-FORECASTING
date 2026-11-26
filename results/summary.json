@@ -1,0 +1,51 @@
+{
+  "mase_scale_kwh": 7.725259586654076,
+  "dataset": [
+    {
+      "split": "train",
+      "start": "2006-12-16",
+      "end": "2008-12-31",
+      "n_days": 747,
+      "n_nan_days": 4,
+      "n_eval_days": 715,
+      "mean_kwh": 26.651308894030905,
+      "sd_kwh": 11.25992885671684
+    },
+    {
+      "split": "validation",
+      "start": "2009-01-01",
+      "end": "2009-12-31",
+      "n_days": 365,
+      "n_nan_days": 4,
+      "n_eval_days": 333,
+      "mean_kwh": 25.900739437922,
+      "sd_kwh": 8.61860887299478
+    },
+    {
+      "split": "test",
+      "start": "2010-01-01",
+      "end": "2010-11-26",
+      "n_days": 330,
+      "n_nan_days": 16,
+      "n_eval_days": 258,
+      "mean_kwh": 25.436387576740746,
+      "sd_kwh": 8.10587051407704
+    }
+  ],
+  "n_test_eval_days": 258,
+  "n_E1": 258,
+  "n_E2": 138,
+  "n_E3": 314,
+  "best_by_validation": {
+    "model": "Ridge",
+    "scenario": "C",
+    "val_mae": 4.39158746655316
+  },
+  "residual_acf": {
+    "lag1": 0.0422781797359895,
+    "lag7": -0.07635634666283554,
+    "n": 258,
+    "mean_resid": -0.43570576352655155
+  },
+  "test_period_mean_kwh": 25.436387576740746
+}

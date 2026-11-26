@@ -1,0 +1,9 @@
+model,scenario,params,n_days,val_mae,val_rmse
+HGB,A,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 25}",333,4.66218529255143,5.969519865824203
+HGB,B,"{""learning_rate"": 0.1, ""max_depth"": 2, ""min_samples_leaf"": 10}",333,4.480734528637495,5.815415762931155
+HGB,C,"{""learning_rate"": 0.1, ""max_depth"": 2, ""min_samples_leaf"": 10}",333,4.435518167575425,5.790672511288062
+HGB,R,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 25}",333,4.530249766931653,6.043008193025363
+Ridge,A,"{""alpha"": 100}",333,4.6558097010747215,5.985859738151829
+Ridge,B,"{""alpha"": 300}",333,4.4774409211241695,5.7725719480872675
+Ridge,C,"{""alpha"": 300}",333,4.39158746655316,5.75083710219573
+Ridge,R,"{""alpha"": 100}",333,4.35598916471364,5.784095738875092
